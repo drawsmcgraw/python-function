@@ -16,14 +16,14 @@ python-function
 Inside this file, you will find a function that is invoked by default. For example:
 
 ```
-def hello(data: Any, attributes: dict):
+def main(data: Any, attributes: dict):
     # Your function implementation goes here
     return attributes, "Hello world!"
 ```
 
 You may replace the code inside this default function with your logic.
 
-To see samples of code deployable as a Function (FaaS) experience, visit the [samples folder](https://github.com/vmware-tanzu/function-buildpacks-for-knative/tree/hello/samples/python).
+To see samples of code deployable as a Function (FaaS) experience, visit the [samples folder](https://github.com/vmware-tanzu/function-buildpacks-for-knative/tree/main/samples/python).
 
 ## Deploying
 

@@ -1,5 +1,5 @@
 from typing import Any
 
-def hello(req: Any):
+def main(req: Any):
     # Your function implementation goes here
-    return "Hello Python Serverless!!!"
+    return "Hello World!"
